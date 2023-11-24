@@ -4,7 +4,7 @@ services:
     container_name: type-app
     build: .
     ports:
-      - "5050:8000"
+      - "5050:5050"
     volumes:
       - .:/app
     command: npm start
